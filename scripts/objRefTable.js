@@ -12,6 +12,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Plugins.Text.Acts.SetVisible,
+		C3.Plugins.InstantGamesBridge.Acts.ShowBanner,
 		C3.Plugins.System.Cnds.ForEach,
 		C3.Plugins.Sprite.Acts.AddChild,
 		C3.Plugins.Touch.Exps.Y,
