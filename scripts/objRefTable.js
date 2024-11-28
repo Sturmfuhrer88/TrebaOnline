@@ -32,6 +32,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.Text.Acts.SetText,
+		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.InstantGamesBridge.Acts.ShowRewarded,
 		C3.Plugins.InstantGamesBridge.Cnds.OnRewardedClosed,
 		C3.Plugins.System.Acts.Wait
@@ -71,8 +72,10 @@ self.C3_JsPropNameTable = [
 	{u11: 0},
 	{InstantGamesBridge: 0},
 	{success: 0},
+	{VMenu: 0},
 	{Family1: 0},
 	{T: 0},
+	{U: 0},
 	{scrollPos: 0},
 	{scrollTouchY: 0},
 	{scrollMax: 0},
@@ -115,5 +118,6 @@ self.InstanceType = {
 	u11: class extends self.ITextInstance {},
 	InstantGamesBridge: class extends self.IInstance {},
 	success: class extends self.ITextInstance {},
+	VMenu: class extends self.ITextInstance {},
 	Family1: class extends self.ITextInstance {}
 }
